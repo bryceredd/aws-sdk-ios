@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'http://aws.amazon.com/mobile/sdk'
   s.license      = 'Apache License, Version 2.0'
   s.author       = { 'Amazon Web Services' => 'amazonwebservices' }
+	s.platform     = :ios, '8.0'
 	s.tvos.deployment_target = '11.0'
 
   s.source       = { :git => 'https://github.com/bryceredd/aws-sdk-ios.git',
